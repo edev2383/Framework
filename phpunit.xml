@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="phpunit.xsd"
+         colors="true"
+         testdox="true"
+         bootstrap="/home/zerodock/dev/vendor/Edev/src/App/autoload.php"
+         verbose="true">
+  <testsuites>
+    <testsuite name="Edev">
+      <directory suffix="Test.php">/home/zerodock/dev/vendor/Edev/tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
