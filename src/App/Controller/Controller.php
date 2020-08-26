@@ -145,7 +145,8 @@ class Controller implements \Ifs\ControllerInterface
     }
 
     /**
-     *
+     * Sets the user display object, by merging the display arra
+     * with the User object display props
      */
     protected function getUserDisplayData()
     {
@@ -153,7 +154,15 @@ class Controller implements \Ifs\ControllerInterface
     }
 
     /**
+     * Helper method to add a value to the Display data array. 
+     * Deprecated, now that Controller::render() accepts the data
+     * array as the second argument this isn't necessarily needed
+     * although for complext Views, I could see this being used 
+     * for clarity.
      *
+     * @param string $id
+     * @param mixed $value
+     * @return void
      */
     protected function setDisplayAttribute($id, $value)
     {
@@ -161,7 +170,11 @@ class Controller implements \Ifs\ControllerInterface
     }
 
     /**
+     * For setting top-level Controller props. Created, but not used. 
      *
+     * @param string $id
+     * @param mixed $value
+     * @return void
      */
     protected function setAttribute($id, $value)
     {
@@ -169,45 +182,14 @@ class Controller implements \Ifs\ControllerInterface
     }
 
     /**
+     * Render class. Creates a Display object, passes along layout and data
+     * Display then handles all templating and rendering
      *
+     * @param [type] $filePath
+     * @param array $data
+     * @param [type] $layout
+     * @return void
      */
-    public function archive_render($filePath, $data = [])
-    {
-        // create new Display objects
-        // From base controller, call child class name and strip out Controller to get root dir
-        if (empty($data)) {
-            $data = $this->_newData;
-        } else {
-            $data = array_merge($data, $this->_newData);
-        }
-
-        // define file path
-        $this->display = new Display($this->_viewPath . $filePath, $data);
-
-        new \Edev\Resource\DevBanner();
-
-        return $this;
-    }
-
-    public function new_render($filePath, $data = [])
-    {
-        // create new Display objects
-        // From base controller, call child class name and strip out Controller to get root dir
-        if (empty($data)) {
-            $data = $this->_newData;
-        } else {
-            foreach ($data as $k => $v) {
-                $this->_newData[$k] = $v;
-            }
-            $data = $this->_newData;
-        }
-
-        // define file path
-        $this->display = new \Edev\Resource\NewDisplay($this->_viewPath . $filePath, $data);
-
-        return $this;
-    }
-
     public function render($filePath, $data = [], $layout = null)
     {
 
