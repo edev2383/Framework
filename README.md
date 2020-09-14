@@ -60,7 +60,6 @@
 
     - [Templater](https://github.com/jasoncases/dashboard/blob/master/README.md#templater)
 
-  - [Repository(ies) - "Repos"](https://github.com/jasoncases/dashboard/blob/master/README.md#repository)
 
 
 ## Getting Started
@@ -69,7 +68,7 @@
 
 In general, the Controllers you are working in will handle their own connections via the **Edev\Database\Manager\Manager()**. However, there are certain instances where you may have to manually create your connections.
 
-The only place a connection is being established outside of a Controller is in an Email piping/parsing subroutine, which is unique to a certain project. 
+The only place a connection has been needed outside of a Controller is in an Email piping/parsing subroutine, which is unique to a certain project. 
 
 ```php
 /**
@@ -154,7 +153,7 @@ namespace Edev\Controller;
 /**
 * A Controller "controls" the business logic for each specified route. They all extend the parent Controller class.
 * They MUST be named using PascalCase, where each word is capitalized and they MUST end with the word 'Controller',
-* otherwise, the RouteController.php cycle will fail and output a die('error').
+* otherwise, the RouteController.php cycle will fail and throw an error.
 *
 * All Controllers MUST contain at minimum the (7) resource methods and the __construct() method.
 *
@@ -193,9 +192,7 @@ class TestModel extends Model
 {
   // Define the target db table
   protected $table = 'my_db_table_name';
-
-  // define pdoName, default is 'client', other option is 'meta' if Model targets the Meta database layer
-  protected $pdoName = 'client';
+  
 }
 ```
 
