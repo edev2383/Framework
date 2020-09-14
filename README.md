@@ -360,6 +360,7 @@ Employee::deleteWhere(
   ]
 );
 ```
+> If a record has been soft-deleted, it WILL NOT show up in a standard SELECT request. The method `includeDelete()` needs to be added to the query chain, i.e., Employee::where('id', 1)->includeDeleted()->get();
 
 > Currently there isn't a way to use OR in the deleteWhere statement, but since this is an edgecase situation, it shouldn't be necessary. Can be added later if needed.
 
