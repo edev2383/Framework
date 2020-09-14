@@ -14,51 +14,51 @@
 
   - [SELECT](README.md#select)
   
-    - [WHERE](https://github.com/jasoncases/dashboard/blob/master/README.md#where-method)
+    - [WHERE](README.md#where-method)
   
-    - [JOINS](https://github.com/jasoncases/dashboard/blob/master/README.md#joins)
+    - [JOINS](README.md#joins)
 
-  - [INSERT](https://github.com/jasoncases/dashboard/blob/master/README.md#save)
+  - [INSERT](README.md#save)
 
-  - [UPDATE](https://github.com/jasoncases/dashboard/blob/master/README.md#update)
+  - [UPDATE](README.md#update)
 
-  - [DELETE](https://github.com/jasoncases/dashboard/blob/master/README.md#delete)
+  - [DELETE](README.md#delete)
 
-  - [ANONYMOUS MODELS](https://github.com/jasoncases/dashboard/blob/master/README.md#anonymous-model)
+  - [ANONYMOUS MODELS](README.md#anonymous-model)
 
-- [Create a View](https://github.com/jasoncases/dashboard/blob/master/README.md#create-a-view)
+- [Create a View](README.md#create-a-view)
 
-- [Render the View](https://github.com/jasoncases/dashboard/blob/master/README.md#render-the-view)
+- [Render the View](README.md#render-the-view)
 
-  - [Templates In the View](https://github.com/jasoncases/dashboard/blob/master/README.md#templates-in-the-view)
+  - [Templates In the View](README.md#templates-in-the-view)
 
-  - [If Statements](https://github.com/jasoncases/dashboard/blob/master/README.md#if-statements)
+  - [If Statements](README.md#if-statements)
 
-  - [For...Each Loops](https://github.com/jasoncases/dashboard/blob/master/README.md#foreach-loops)
+  - [For...Each Loops](README.md#foreach-loops)
 
-  - [Includes](https://github.com/jasoncases/dashboard/blob/master/README.md#template-includes)
+  - [Includes](README.md#template-includes)
 
-[File System](https://github.com/jasoncases/dashboard/blob/master/README.md#file-system)
+[File System](README.md#file-system)
 
-- [Namespaces](https://github.com/jasoncases/dashboard/blob/master/README.md#namespaces)
+- [Namespaces](README.md#namespaces)
 
-  - [Resource](https://github.com/jasoncases/dashboard/blob/master/README.md#resource)
+  - [Resource](README.md#resource)
 
-    - [Display](https://github.com/jasoncases/dashboard/blob/master/README.md#display)
+    - [Display](README.md#display)
 
-    - [MISC-Handler](https://github.com/jasoncases/dashboard/blob/master/README.md#handler)
+    - [MISC-Handler](README.md#handler)
 
-    - [Crypto](https://github.com/jasoncases/dashboard/blob/master/README.md#crypto)
+    - [Crypto](README.md#crypto)
 
-    - [DotEnv](https://github.com/jasoncases/dashboard/blob/master/README.md#dotenv)
+    - [DotEnv](README.md#dotenv)
 
-    - [Status](https://github.com/jasoncases/dashboard/blob/master/README.md#status)
+    - [Status](README.md#status)
 
-    - [Uid](https://github.com/jasoncases/dashboard/blob/master/README.md#uid)
+    - [Uid](README.md#uid)
 
-    - [Token](https://github.com/jasoncases/dashboard/blob/master/README.md#token)
+    - [Token](README.md#token)
 
-    - [Templater](https://github.com/jasoncases/dashboard/blob/master/README.md#templater)
+    - [Templater](README.md#templater)
 
 
 
