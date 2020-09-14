@@ -6,13 +6,13 @@
 
 - [Getting Started](README.md#getting-started)
 
-- [Creating A Route](https://github.com/jasoncases/dashboard/blob/master/README.md#creating-a-route)
+- [Creating A Route](README.md#creating-a-route)
 
-- [Creating A Controller](https://github.com/jasoncases/dashboard/blob/master/README.md#create-a-controller-class)
+- [Creating A Controller](README.md#create-a-controller-class)
 
-- [ORM Layer](https://github.com/jasoncases/dashboard/blob/master/README.md#orm-layer)
+- [ORM Layer](README.md#orm-layer)
 
-  - [SELECT](https://github.com/jasoncases/dashboard/blob/master/README.md#select)
+  - [SELECT](README.md#select)
   
     - [WHERE](https://github.com/jasoncases/dashboard/blob/master/README.md#where-method)
   
