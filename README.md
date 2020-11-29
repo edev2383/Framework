@@ -556,7 +556,8 @@ Our values have been passed to the view for rendering, so lets look at the new m
     <!-- use the @ symbol to denote the beginning of a command structure -->
     @if (logged_in == true)
     <!-- Whatever is placed between the @if...@endif will be printed if the statement evaluates -->
-    <p>Welcome, {username}! @endif</p>
+    <p>Welcome, {username}!</p>
+    @endif
   </body>
 </html>
 
